@@ -34,6 +34,8 @@ defmodule Issues.Mixfile do
   defp deps do
     [{:mix_test_watch, "~> 0.2", only: :dev},
 		 {:httpoison, "~> 0.4"},
+		 {:ex_doc, "~> 0.11.2"},
+		 {:earmark, ">= 0.0.0"},
 		 {:jsx, "~> 2.0"}]
   end
 end
